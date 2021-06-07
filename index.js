@@ -48,7 +48,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'licence',
+        name: 'license',
         message: 'What is the license?',
     },
 ];
