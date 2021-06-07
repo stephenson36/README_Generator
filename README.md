@@ -1,25 +1,28 @@
-# README Generator
+# e
 
 ## Description
 
-This project will prompt the user for information regarding their project and will use the input to create a personalized README file
+e
 
-- Motivation: This project was built to solidify skills using inquirer
-- Problem Solved: Saves time creating a README file
-- Learnings: How to use inquirer
+- Motivation: e
+- Problem Solved: e
+- Learnings: e
 
 ## Installation
 
-Make sure to install npm and inquirer prior to running the program
+e
 
 ## Usage
 
-Answer the prompts in the terminal to build a README file for your project
+e
 
-## Credits
+## Contributing
 
-Sophia Stephenson
+e
 
 ## License
+  ![badge representing license](https://img.shields.io/badge/license-License2-brightgreen)
+  License2
 
-n/a
+## Tests
+e

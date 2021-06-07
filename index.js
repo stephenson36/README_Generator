@@ -24,7 +24,7 @@ const questions = [
     {
         type: 'input',
         name: 'problem',
-        message: 'What what problem does your project solve?',
+        message: 'What problem does your project solve?',
     },
     {
         type: 'input',
@@ -44,12 +44,18 @@ const questions = [
     {
         type: 'input',
         name: 'credits',
-        message: 'Pleae name all collaborators',
+        message: 'Please name all collaborators:',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What is the license?',
+        choices:['License1', 'License2','License3'],
     },
     {
         type: 'input',
-        name: 'license',
-        message: 'What is the license?',
+        name: 'tests',
+        message: 'Describe any tests used for this project:',
     },
 ];
 
