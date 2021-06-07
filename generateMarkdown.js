@@ -30,6 +30,16 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
 
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
+
 ## Description
 
 ${data.description}
@@ -54,6 +64,10 @@ ${licenseSection}
 
 ## Tests
 ${data.tests}
+
+## Questions
+
+If you have any questions, please contact me on GitHub at https://github.com/${data.questions}
 `;
 }
 

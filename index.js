@@ -50,12 +50,17 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What is the license?',
-        choices:['License1', 'License2','License3'],
+        choices:['Apache', 'GNU','MIT'],
     },
     {
         type: 'input',
         name: 'tests',
         message: 'Describe any tests used for this project:',
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'What is your GitHub username?',
     },
 ];
 
